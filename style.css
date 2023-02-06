@@ -14,7 +14,7 @@ body{
     display: flex;
     color: white;
     justify-content: space-between;
-    padding:16px;
+    padding:16px 62px;
     
 
 }
@@ -59,6 +59,18 @@ body{
     align-items: center;
     padding: 70px;
     width: 50%; 
+
+}
+
+
+.firstbutton{
+    display: block;
+    border:none;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 12px;
+    color: white;
+    padding: 8px 22px;
 
 }
 
@@ -134,24 +146,37 @@ body{
 .prompt{
     display: flex;
     background-color: #3882F6;
-    width: 800px;
-    border-radius: 26px;
+    width: 900px;
+    border-radius: 18px;
     margin: 58px;
+    height: 150px;
     
 }
 
 
 .text2{
     padding: 32px;
+    align-self: center;
 
 }
 
+.ButtonContainer{
+    display: flex;
+    
+    align-self: center;
+    margin: 35px 120px;
+    
+}
 
-
-
-
-
-
+.prompt-button{
+    
+    border:1px solid white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 12px;
+    color: white;
+    padding: 8px 22px;
+}
 
 
 
@@ -165,9 +190,7 @@ body{
     justify-content: center;
 }
 
-.footertext{
-    
-}
+
 
 
 
